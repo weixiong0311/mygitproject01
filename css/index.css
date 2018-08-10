@@ -1,0 +1,558 @@
+    .container{
+        width:100%;
+        height:40px;
+        line-height:40px;
+        background-color:#333;
+    }
+    .nav_bar,.head{
+        width:1226px;
+        margin:0 auto;
+    }
+    .nav_bar ul.nav_bar_left  li{
+        float:left;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        color:#b0b0b0;
+        padding:0 5px;
+        
+    }
+    .nav_bar ul.nav_bar_right li{
+        float:right;
+    }
+    .head{
+        height:100px;
+        line-height:100px;
+    }
+    .head .head_left li{
+        float:left;
+        margin-left:10px;
+    }
+    .head ul li:first-child a img{
+        vertical-align: middle;
+    }
+    .head ul li a{
+        font-size:16px;
+        color:rgb(66,66,66);
+    }
+    .head_right{
+        float:right;
+        height:50px;
+        line-height:50px;
+        position: relative;
+        border:1px solid #b0b0b0;
+        border-radius: 2px;
+        margin:25px 0;
+        width:265px;
+        
+    }
+    .head_right item a{
+        display:inline-block;
+    }
+    .head_right input{
+        border:none;
+        outline:none;
+        width:220px;
+        height:28px;
+        line-height:28px;
+        background-color:#f5f5f5;
+    }
+    .head_right>a{
+        display:inline-block;
+        height:100%;
+        line-height:50px;
+        padding:0 6px;
+        border-left:1px solid #b0b0b0;
+        text-align:center;
+        font-size:20px;
+        font-weight: 900;
+        color:black;
+        cursor:pointer;
+        position:absolute;
+        right:0px;
+        top:0px;
+    }
+    .head_right>a:hover{
+        background-color:rgb(255,103,0);
+        color:#f5f5f5;
+    }
+    .head_right .item a:hover{
+            background-color:rgb(255,103,0);
+        color:#f5f5f5;
+    }
+    .head_right .item{
+        position: absolute;
+        bottom:0px;
+        right:45px;
+    }
+    .head_right ul li{
+        line-height:30px;
+    }
+    .find_select{
+        width:220px;
+        background-color:#fff;
+        border:1px solid #ff6700;
+        position:absolute;
+        top:48px;
+        left:-1px;
+        z-index: 10;
+    }
+    .head .find_select li a{
+        font-size:12px;
+        /*padding:0px 5px;*/
+        width:100%;
+
+    }
+        .head ul.find-select li{
+        line-height:30px;
+        width:220px;
+    }
+    .find-select li:hover{
+            background-color:#FAFAFA;
+        cursor: pointer;
+    }
+    .find_select .result{
+        float:right;
+        margin-right:10px;
+    }
+    .find_select{
+        display:none;
+    }
+    /*  轮播广告*/
+     #big_banner_pic_wrap{
+               min-width:1226px;
+               height:460px;
+               margin:0 auto;
+               position:relative;
+               top:0px;
+    }
+    #big_banner_pic{
+    position:relative;
+    }
+
+    .banner #big_banner_pic li{
+        position:absolute;
+        width:100%;
+        top:0;
+        left:0;
+    }
+    .banner #big_banner_pic li a{
+        width:1226px;
+        height:460px;
+        display:block;
+        margin:0 auto;
+    }
+    .hadden{
+        display:none;
+    }
+    #big_banner_pic_wrap .big_banner_idx a{
+    height:10px;
+    width:10px;
+    display:block;
+    border-radius:50%;
+    border:2px solid #fff;
+    float:left;
+    margin-right:10px;
+    }
+    #big_banner_pic_wrap .big_banner_idx{
+        width:auto;
+        position:absolute;
+        height:10px;
+        bottom:20px;
+        left:49%;
+    }
+    #big_banner_pic_wrap .big_banner_idx .current{
+        background:#fff;
+    }
+    /*轮播下广告图片*/
+     ul li{
+            padding:0px;
+            margin:0px;
+        }
+        .list{
+            width:1226px;
+            min-height:170px;
+            margin:0 auto;
+            margin-top:15px;
+
+        }
+      
+        .list>div{
+            float: left;
+            
+        }
+        .list div:first-child{
+            height:170px;
+            width:235px;
+            margin-left:10px;
+            background:#5f5f50;
+        }
+        .list .head_other_ad{
+            width:315px;
+            height:170px;
+            margin-left:12px;
+
+        }
+        .list .head_other ul li{
+            float:left;
+            width:33%;
+            height:85px;
+        }
+        .list .head_other ul li a{
+            display:inline-block;
+            height:100%;
+            width:100%;
+            line-height:85px;
+            text-align:center;
+            color:#fff;
+            font-size:13px;
+
+        }
+        .list .head_other .a1{
+            border-bottom:1px solid #888;
+        }
+        .list .head_other .a2{
+            border-right:1px solid #888;
+        }
+        /*第二个轮播广告*/
+        .banner_mini{
+           width:1226px;
+           min-height:150px;
+           margin:0 auto;
+           color:#424242;
+           margin-top:15px;
+       }
+      
+       .banner_mini .top_title div{
+           width: 70px;
+            height: 28px;
+            float: right;
+            margin-top: 14px;
+            border: 1px solid #b0b0b0;
+            border-right:none;
+            color: #BEBEBE;
+            line-height: 25px;
+            text-align: center;
+       }
+       .banner_mini .top_title div>span{
+            width: 34.5px;
+            height: 25px;
+            float: left;
+            font-size: 20px;
+            border-right: 1px solid #b0b0b0;
+            cursor: pointer;
+        }  
+        .banner_mini .top_title{
+            height:60px;
+            line-height:60px;
+        } 
+       .banner_mini .top_title>span{
+           font-size:25px;
+           font-weight:100;
+           display:inline-block;
+           height:60px;
+           text-align:center;
+           line-height:60px;
+
+       } 
+       .banner_mini .middle_ad{
+           width:1226px;
+           margin:0 auto;
+
+       } 
+       .banner_mini .middle_ad #head_hot_goods_content{
+            width: 1226px;
+            margin:0px auto;
+           height: 345px;
+           overflow: hidden;
+         position: relative;
+
+       } 
+       .banner_mini .middle_ad #head_hot_goods_content ul{
+           width: 2500px;
+            height: 300px;
+            position: absolute;
+            left: 0px;
+            overflow: hidden;
+            transition: all 3s;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -ms-transition: all 1s;
+       }
+        .banner_mini .middle_ad #head_hot_goods_content ul li{
+            width: 237px;
+            height: 300px;
+            padding-top: 20px;
+            margin-right: 10px;
+            background: #fafafa;
+            float: left;
+            text-align: center;
+            border-top: 1px solid #FF6700;
+        }
+         .banner_mini .middle_ad #head_hot_goods_content ul li a{
+             display:block;
+         }
+         .banner_mini .middle_ad #head_hot_goods_content ul li a:nth-child(2){
+              margin: 15px auto;
+            font-size: 13px;
+            color: #333;
+        }
+        .banner_mini .middle_ad #head_hot_goods_content ul li a:nth-child(3){
+            color:#b0b0b0;
+            font-size:12px
+        }
+        .banner_mini .middle_ad #head_hot_goods_content ul li a:hover{
+                text-decoration: none;
+                cursor: pointer;
+         }
+        /*底部广告图片*/
+        .foot_main{
+            width:100%;
+             background: #f5f5f5;
+            padding-bottom: 8px;
+        }
+       .foot_ad{
+            width: 1226px;
+            margin: 0 auto;
+            padding: 1px;
+            overflow: hidden;      
+       }
+       .foot_container{
+            width: 1226px;
+            margin: 0 auto;
+            overflow: hidden;
+       }
+       .foot_ad .foot_container ul{
+           height:100%;
+           float:left;
+       }
+       .foot_ad .foot_container ul li{
+           width: 234px;
+            height: 302px;
+            float: left;
+            text-align: center;
+            position: relative;
+            background: #ffffff;
+            margin-top: 10px;
+            margin-left: 12px;
+            cursor: pointer;
+            transition: all 3s;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -ms-transition: all 1s;
+       } 
+       .foot_ad .foot_container ul li:hover{
+           top:-5px;
+           box-shadow:rgba(0,0,0,0.2) 0 15px 30px;
+       }
+       .foot_ad .foot_container ul li a{
+           display:block;
+       }
+       .foot_ad .foot_container ul li:first-child{
+               width: 234px;
+                 height: 600px;
+                margin-left:0px;
+       }
+       .foot_ad .foot_container ul li a:nth-child(2){
+               font-size: 15px;
+                margin-top: 15px;
+                color: #424242
+       }
+       .foot_ad .foot_container ul li a:nth-child(3){
+           font-size: 10px;
+            margin-top: 5px;
+            color: #BEBEBE;
+       }
+       .foot_ad .foot_container ul li a:nth-child(4){
+               font-size: 15px;
+            margin-top: 15px;
+            color: #FF6700;
+       }
+         .foot_ad>div>span{
+                font-size: 25px;
+                font-weight: 100;
+                color: #424242;
+                margin-left:10px;
+         }
+    /*底部css*/
+     .footer{
+            width:1226px;
+            margin:0 auto;
+            /*text-align: center;*/
+            margin-top:20px;
+        }
+        .footer .floor1 ul li{
+            
+            margin: 0 5px;
+           color:#E0E0E0;
+           display:inline-block;
+            width: 18%;
+            height:25px;
+            line-height:25px;
+            border-left:1px solid #E0E0E0;
+            text-align:center;
+        }
+        .footer .floor1 ul li a{
+            text-decoration: none;
+            color: #616161;
+            cursor: pointer;
+            font-size:16px;
+        }
+        .footer .floor1 ul li a:hover{
+            color:#FF674F;
+        }
+        .footer .floor1 ul li:first-child{
+            border-left:none;
+        }
+        .footer .floor1 ul{
+            height:100%;
+            width:100%;
+        }
+
+        .footer .floor1{
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            border-bottom: 1px solid #BEBEBE;
+        }
+        .footer .floor2{
+            width: 100%;
+        }
+        .footer .floor2 .floor2-left{
+            width:79%;
+            height: 160px;
+            margin-top: 50px;
+            margin-right:-27px;
+            display:inline-block;
+        }
+        .footer .floor2 ul{
+            display:inline-block;
+            margin-left: 8%;
+        }
+        .footer .floor2 ul li{
+                font-size: 13px;
+                margin-top: 15px;
+                cursor: pointer;
+        }
+        .footer .floor2 ul li:first-child{
+            font-size: 15px;
+            margin-bottom: 30px;
+            
+        }
+        .footer .floor2 ul li a:hover{
+                color:#FF6700;
+        }
+        .footer .floor2 ul li:first-child a{
+            color:#757575;
+        }
+        .footer .floor2 .floor2-right{
+            height:120px;
+            margin-top: 50px;
+            display:inline-block;
+            width:21%;
+            text-align:center;
+            text-decoration: none;
+            border-left: 1px solid #BEBEBE;
+        }
+        .footer .floor2 .floor2-right a{
+            display:block;
+        }
+        .footer .floor2 .floor2-right a:nth-child(1){
+            font-size: 20px;
+            color: #FF6700;
+            margin-bottom: 10px;
+        }
+         .footer .floor2 .floor2-right a:nth-child(2){
+              font-size: 13px;
+                display: block;
+                margin-bottom: 5px;
+        }
+          .footer .floor2 .floor2-right a:nth-child(3){
+              font-size: 13px;
+            display: block;
+            margin-bottom: 15px;
+        }
+        .footer .floor2 .floor2-right span{
+            display: block;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            -ms-transition: all .3s;
+            width: 120px;
+            height: 30px;
+            margin-left:24%;
+            color: #FF6700;
+            font-size: 13px;
+            cursor: pointer;
+            background: #FFF;
+            line-height: 30px;
+            border: 1px solid #FF6700;
+        }
+        .footer .floor2 .floor2-right span:hover{
+            background:#FF6700;
+            color:#fff;
+        }
+        .footer_bottom .foot_note_con{
+            margin:15px;
+        } 
+        .footer_bottom .foot_note_con .foot_logo{
+             width: 38px;
+            height: 38px;
+            display: inline-block;
+            vertical-align: top;
+            background: #FF6700;
+        }
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt {
+        display: inline-block;
+    
+        width: 95%;
+        position:relative;
+        margin-left: 10px;
+        }
+
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt a {
+            font-size: 12px;
+            margin:1%;
+            color: #B0B0B0;
+            text-decoration: none;
+        }
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt a:hover{
+            color:#FF6700;
+            }
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt h1 {
+            font-size: 13px;
+            color:#B0B0B0;
+            display:inline-block;
+        }
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt p{
+            margin-top:1%;
+            line-height:18px;
+            font-size:12px;
+            color:#B0B0B0;
+        
+        }
+
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt .foot_logo_small{
+            margin-left:3px;
+            width:390px;
+            position:absolute;
+            top:35px;
+            right:20px;
+        }
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt  .foot_logo_small img{
+            width:83px;
+            height:28px;
+
+        }
+        .footer_bottom .foot_note_wrap .foot_note_con .foot_note_txt .foot_ad {
+            line-height:80px;
+            text-align:center;
+            color:#C2C2C2;
+            font-size:16px;
+        }
+
+
+        
+            
+            
